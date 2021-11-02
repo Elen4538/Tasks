@@ -7,7 +7,6 @@ count = 0 # для заполнения спирали, при каждой ит
 
 rez = [[0 for i in range(n)] for j in range(n)] 
 
-
 l = 1
 
 for l in range (1, n*n):
@@ -30,8 +29,7 @@ for l in range (1, n*n):
         data += 1
         
     count += 1
-    
-    
+      
 if n == 1: # небольшой костыль для случая n==1
     print ('1')
 
